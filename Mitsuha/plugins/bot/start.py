@@ -30,7 +30,6 @@ from strings import get_string
 
 NEXI_VID = [
 "https://envs.sh/CeR.me.mp4",
-"https://envs.sh/pPX.mp4",
 "https://envs.sh/TV1.me.mp4",
 "https://envs.sh/Ce3.me.mp4",
 ]
