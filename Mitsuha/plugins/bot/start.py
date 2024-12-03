@@ -31,7 +31,7 @@ MITSUHA_VID = [
     "",
     "https://envs.sh/pPX.mp4",
     "",
-    "",
+    "https://envs.sh/Ce3.me.mp4",
     "",
 ]
 
