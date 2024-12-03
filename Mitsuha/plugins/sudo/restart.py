@@ -17,8 +17,8 @@ from Mitsuha.utils.database import (
     remove_active_chat,
     remove_active_video_chat,
 )
-from AnonXMusic.utils.decorators.language import language
-from AnonXMusic.utils.pastebin import AnonyBin
+from Mitsuha.utils.decorators.language import language
+from Mitsuha.utils.pastebin import AnonyBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
