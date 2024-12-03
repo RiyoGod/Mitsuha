@@ -13,7 +13,7 @@ from Mitsuha.utils.exceptions import AssistantErr
 from Mitsuha.utils.inline import aq_markup, close_markup, stream_markup
 from Mitsuha.utils.pastebin import AnonyBin
 from Mitsuha.utils.stream.queue import put_queue, put_queue_index
-from AnonXMusic.utils.thumbnails import get_thumb
+from Mitsuha.utils.thumbnails import get_thumb
 
 
 async def stream(
