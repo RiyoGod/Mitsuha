@@ -57,10 +57,10 @@
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 
 - Clone the 𝐌𝐈𝐓𝐒𝐔𝐇𝐀 repository :
-`https://github.com/DeadliestOne/MitsuhaXTest.git`
+`https://github.com/DeadliestOne/Mitsuha.git`
 
 - Change directory to 𝐌𝐈𝐓𝐒𝐔𝐇𝐀 :
-`cd ANNIEMUSIC`
+`cd Mitsuha`
 
 - Install required Python packages :
 `pip3 install -U -r requirements.txt`
