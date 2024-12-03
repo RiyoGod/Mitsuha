@@ -24,7 +24,7 @@ from Mitsuha.utils.database import (
 from Mitsuha.utils.decorators.language import LanguageStart
 from Mitsuha.utils.formatters import get_readable_time
 from Mitsuha.utils.inline import help_pannel, private_panel, start_panel
-from config import BANNED_USERS, AYUV
+from config import BANNED_USERS, MITWA
 from strings import get_string
 
 MITSUHA_VID = [
