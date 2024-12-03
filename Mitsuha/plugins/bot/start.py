@@ -28,18 +28,17 @@ from config import BANNED_USERS, AYUV
 from strings import get_string
 
 MITSUHA_VID = [
-    "",
+    "https://envs.sh/CeR.me.mp4",
     "https://envs.sh/pPX.mp4",
-    "",
-    "https://envs.sh/Ce3.me.mp4",
-    "",
+    "https://envs.sh/TV1.me.mp4",
+    "https://envs.sh/Ce3.me.mp4" ,
 ]
 
 STICKERS = [
-    "CAACAgUAAyEFAASERTelAAI382cT3YnjFmPTF8aYoCbN7ikbeHnYAAKODgACcTRYVfH4mb5uwQ8WHgQ",
-    "CAACAgQAAxkBAAIa22cUkSn6sxARgAMYggrje0ler1m_AAKzEQACpvFxHk9e0PkZypDLHgQ",
-    "CAACAgQAAxkBAAIa4WcUkYS3ufonuWDRX4MUAAER7vfp4wACNxAAAlT14FFJeYjfP3wcdR4E",
-    "CAACAgUAAxkBAAIa5GcUke_Tu84yQmzKcZa1kAhsH2xTAALlDQACnS4ZV3NxEzpOhxIhHgQ",
+    "CAACAgUAAyEFAASLoYaNAALM5WdO_j4I8yaeZBaiaglRzOrsGBsKAALyBgACAfPZV3IOK9G-IRfMHgQ",
+    "CAACAgUAAyEFAASLoYaNAALM6WdO_layxr0JEnQVZN0ch5kRovMQAAIDBwAChu3YV6r5UyuipYngHgQ",
+    "CAACAgUAAyEFAASLoYaNAALM8GdO_rv4GszFTxVjuAon6e0xF82bAAI7CgAC4ZvRV7IZle93Xn7RHgQ",
+    "CAACAgQAAyEFAASLoYaNAALM7GdO_nGhwowpKpbaOlqMv2wpI-ulAAKkFgACpvFxHq8aJFn6JwABaB4E",
 
 ]
 
