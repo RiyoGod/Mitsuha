@@ -60,6 +60,10 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
+#Dont edit this line !!
+MITWA = [ "<b>нєу</b> {0}, 💗\n\n๏ ᴛʜɪs ɪs {1} !\n\n➻ {1} ʏᴏᴜʀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ʙᴏᴛ! EɴJᴏʏ sᴇᴀᴍʟᴇss 💓 ᴀᴄᴄᴇss ᴛᴏ ᴀɴʏ sᴏɴɢ ᴡɪᴛʜ ʟᴀɢ-ғʀᴇᴇ ᴘᴇʀғᴏʀᴍᴀɴᴄᴇ ᴀɴᴅ ᴛʜᴇ ʙᴇsᴛ ᴀᴜᴅɪᴏ ǫᴜᴀʟɪᴛʏ. Mɪᴛsᴜʜᴀ ᴄᴜʀᴀᴛᴇs ᴘᴇʀsᴏɴᴀʟɪᴢᴇᴅ ᴘʟᴀʏʟɪsᴛs, ᴅɪsᴄᴏᴠᴇʀs ɴᴇᴡ ᴀʀᴛɪsᴛs, ᴀɴᴅ ᴇɴʜᴀɴᴄᴇs ʏᴏᴜʀ ʟɪsᴛᴇɴɪɴɢ ᴇxᴘᴇʀɪᴇɴᴄᴇ, ᴍᴀᴋɪɴɢ ɪᴛ ᴛʜᴇ ᴘᴇʀғᴇᴄᴛ ᴄᴏᴍᴘᴀɴɪᴏɴ ғᴏʀ ᴀʟʟ ʏᴏᴜʀ ᴍᴜsɪᴄᴀʟ ᴍᴏᴍᴇɴᴛs 🦋. ᴛᴜɴᴇ ɪɴ ɴᴏᴡ!.\n\n<b><u>Sᴜᴘᴘᴏʀᴛᴇᴅ Pʟᴀᴛғᴏʀᴍs :</b></u> ʏᴏᴜᴛᴜʙᴇ, sᴘᴏᴛɪғʏ, ʀᴇssᴏ, ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ ᴀɴᴅ sᴏᴜɴᴅᴄʟᴏᴜᴅ.\n──────────────────\n<b>๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs🦋.</b> "  ,
+        ]
+
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
 STRING1 = getenv("STRING_SESSION", None)
