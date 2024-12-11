@@ -18,7 +18,7 @@ from Mitsuha.utils.database import (
     remove_active_video_chat,
 )
 from Mitsuha.utils.decorators.language import language
-from Mitsuha.utils.pastebin import ANNIEBIN
+from Mitsuha.utils.pastebin import AnonyBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
