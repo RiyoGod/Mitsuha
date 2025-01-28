@@ -4,6 +4,9 @@ import importlib
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
+from flask import Flask  # Add Flask
+import os  # Add os for the PORT environment variable
+
 import config
 from Mitsuha import LOGGER, app, userbot
 from Mitsuha.core.call import Anony
@@ -43,7 +46,7 @@ async def init():
         await Anony.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("Mitsuha").error(
-            "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
+            "Please turn on the videochat of your log group/channel.\n\nStopping Bot..."
         )
         exit()
     except:
@@ -59,4 +62,15 @@ async def init():
 
 
 if __name__ == "__main__":
+    # Run the bot initialization logic
     asyncio.get_event_loop().run_until_complete(init())
+
+    # Flask server setup
+    app = Flask(__name__)
+
+    @app.route("/")
+    def home():
+        return "Bot is running!"
+
+    port = int(os.environ.get("PORT", 5000))  # Render sets the PORT environment variable
+    app.run(host="0.0.0.0", port=port)  # Start the Flask server
